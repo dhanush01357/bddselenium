@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ecom.object&apos; to &apos;objectTest&apos;&#x0D;&#x0A;- Original project: &apos;ecom&apos;&#x0D;&#x0A;- Original element: &apos;ecom.object&apos;&#x0D;&#x0A;- Renamed element: &apos;ecom.objectTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;object&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;ecom{object.java[object" matchStrategy="1" name="objectTest" qualified="false" references="true" similarDeclarations="false" stamp="1681112820534" textual="false" version="1.0"/>
+</session>

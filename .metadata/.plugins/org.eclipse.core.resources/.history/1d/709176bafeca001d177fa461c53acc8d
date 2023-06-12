@@ -1,0 +1,25 @@
+package ecom;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+import org.openqa.selenium.Capabilities;
+
+public class test1 {
+	public static void main (String[] args)
+	{
+		 
+
+		
+		//WebDriverManager.chromedriver().setup();
+		ChromeOptions o=new ChromeOptions();
+		o.addArguments("--remote-allow-origins=*");
+		o.addArguments("−−incognito");
+       // DesiredCapabilities cap= new DesiredCapabilities.();
+
+}
+}

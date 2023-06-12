@@ -1,0 +1,30 @@
+package mobile;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.HttpCommandExecutor;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.remote.MobileCapabilityType;
+
+public class test1 {
+	public static void main(String[] args) throws MalformedURLException {
+		DesiredCapabilities dc=new DesiredCapabilities();
+		dc.setCapability(MobileCapabilityType.DEVICE_NAME,"Galaxy M311");
+		dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
+		dc.setCapability(MobileCapabilityType.NO_RESET,"true");
+		dc.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
+		dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
+		System.out.println("======================================");
+		dc.setCapability(MobileCapabilityType.UDID, "RZ8NA27YLBB");
+		String url = "new URL(\"http://localhost:4723/wd/hub";
+		//AndroidDriver<WebElement>driver=new AndroidDriver<WebElement>(url,dc);
+		AndroidDriver<WebElement> aa=new AndroidDriver<>(new URL("http://localhost:4723/wd/hub"),dc);
+
+	}
+
+}
